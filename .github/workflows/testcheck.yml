@@ -15,6 +15,8 @@ jobs:
         sha: ${{ github.event.client_payload.sha }}
         run_id: ${{ github.run_id }}
         name: ${{ github.workflow }}
+        enforce: true
+        enforce_admin: true
     - name: Checkout
       uses: actions/checkout@v2.3.4
       with:
