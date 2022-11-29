@@ -1,4 +1,4 @@
-name: Check for passwords
+name: Test Check 
 
 on:
   repository_dispatch:
